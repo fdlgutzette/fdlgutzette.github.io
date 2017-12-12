@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fond du Lac Gutzette</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="shortcut icon" href="favicon.png">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
+            .col-md-4{
+                font-size:20px!important;
+            }
+            .panel{
+                margin:20px auto 20px auto!important;
+                width:400px!important;
+            }
+        </style>
+    </head>
+    <body>
+       <header>
+        <ul class="nav nav-tabs">
+            <li role="presentation"><a href="index.html">News</a></li>
+            <li role="presentation"><a href="feature.html">Feature Articles</a></li>
+            <li role="presentation"><a href="edit.html">Editorials</a></li>
+            <li role="presentation" class="active"><a href="column.html">Columns</a></li>
+        </ul>
+        <div class="jumbotron">
+            <h1>The Fond du Lac Gutzette</h1>
+        </div>
+       </header>
+       <div id="article">
+           <h1 id="title">Dear Joey, My Child Wants a Computer For Christmas. Should I Get One?</h1>
+           <div class="panel panel-danger">
+              <div class="panel-heading">From: 5a1ntN1ck25</div>
+                  <div class="panel-body">
+                    Dear Joey, My child wants a computer for Christmas. Should I get one?
+                </div>
+            </div>
+       <div class="col-md-4">Dear 5a1nt N1ck, <br> I think It's perfectly logical for you to have concerns, 
+       but you shouldn't worry about your child. I would say the only reason one shouldn't get their
+       child a computer is for a financial reason. A good computer can be quite expensive,
+       but if you have the funds, it is a worthwhile investment not only for your child's 
+       current tasks, but for your child's Future.
+   <img src="pictures/comp.png">
+        </div>
+       <div class="col-md-4">Computers, even if they are provided through the school are a wondrous 
+       learning tool for students. It allows them to explore their own creativity and do their school
+       work more efficiently. Unfortunately, some schools feel the need to block specific websites
+       that would be used by students for positive reasons. I have personally run into this problem
+       with some programming and website hosting sites that the school blocked. At home with their own
+       computer, students can use these websites. 
+        </div>
+       <div class="col-md-4">Christmas is a large time for spending money, and a computer has
+       the potential to be equivalent to the normal price you pay for everything. I would 
+       suggest that you tell your child that, if they get a computer for Christmas, that 
+       it may be the only gift, or that they may not get as many as normal. Christmas is a
+       time for giving, but not for going broke. We all need to remember the true holiday
+       spirit of being together over getting presents. A computer is a wonderful useful gift,
+       but it means nothing without friends and family.
+        </div>
+       </div>
+       <form action="send.php" method="POST">
+        <input name="message" type="text" class="form-control" placeholder="Last name, First name">
+       <textarea id="email" name="name" class="form-control" placeholder="Ask Us Questions"></textarea>
+       <button type="submit" class="btn btn-success">Send <span class="glyphicon glyphicon-envelope"></span></button>
+        </form>
+    </body>
+</html>
