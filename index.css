@@ -1,0 +1,37 @@
+.jumbotron{
+    background-image:url('pictures/jumbo.jpg');
+    background-size:cover;
+    background-position:top;
+    height:370px;
+    color:red!important;
+    font-family:times;
+}
+.nav{
+    background-color:white!important;
+}
+body{
+    font-family:times!important;
+    background-color:rgba(193, 144, 63, 0.9)!important;
+}
+#email{
+    height:200px;
+}
+#title{
+    text-decoration: underline;
+    font-style:italic;
+    text-align:center;
+}
+form{
+    width:600px!important;
+    margin:auto!important;
+}
+.form-control{
+    margin:10px;
+}
+.col-md-4{
+    font-size:1em!important;
+}
+.btn{
+    margin:10px;
+    width:600px!important;
+}
